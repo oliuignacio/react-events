@@ -1,0 +1,148 @@
+* {
+  border-radius: 3px;
+  border-width: 0.08vh;
+  
+}
+
+.navbar-container {
+  position:relative;
+  border-bottom: solid;
+  border-color: lightgray;
+  display: flex;
+  margin-left: 0px;
+  align-self: flex-start;
+  
+}
+
+.navbar-container h1{
+  margin-left: 10px;
+}
+
+
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 25px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+  border-style: solid;
+  border-color: lightgray;
+  margin-left: 8%;
+  height: 50vh;
+}
+
+.event-container {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-color: lightgray;
+  margin-bottom: 15px;
+  height: 18vh;
+  width: 80%;
+  
+}
+
+.eventslist-container {
+  align-items: center;
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+.nextevent-container {
+  background-color: #fe7b10;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  
+}
+
+.nexttitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+}
+
+.next-desc {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.next-desc h1 {
+  margin: 0;
+  font-weight: 300;
+}
+
+
+.pretty-date {
+  background-color: #fe7b10;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+
+
+}
+
+
+input {
+  border-radius: 1px;
+  width: 90%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #fe7b10;
+  color:white;
+  border-color: #fe7b10;
+  width: 92%;
+  border-radius: 2px;
+  height: 35px;
+}
+
+.nexttitle {
+  display: flex;
+  align-self: start;
+  margin-left: 10px;
+  color:aliceblue;
+}
+
+.littleDate h1 {
+  margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+h2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.event-desc {
+  margin-left: 10px;
+  color: grey;
+}
+
+p {
+  display: flex;
+  align-self: flex-start;
+}
